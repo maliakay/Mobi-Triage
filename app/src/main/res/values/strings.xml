@@ -1,0 +1,316 @@
+<resources>
+
+    <!-- EditProfile -->
+    <string name="app_name" translatable="false">MobilTriyaj</string>
+    <string name="btn_main">Save</string>
+    <string name="gender">Gender:</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_surname">Enter your surname</string>
+    <string name="hint_weight">Enter your weight(kg)</string>
+    <string name="hint_height">Enter your height(cm)</string>
+    <string name="hint_birthday">Enter your birthday</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="select_language">Select Language</string>
+
+    <string name="spinnerBloodGroup">Blood group</string>
+    <string-array name="blood_group_array">
+        <item>AB Rh+</item>
+        <item>AB Rh-</item>
+        <item>A Rh+</item>
+        <item>A Rh-</item>
+        <item>B Rh+</item>
+        <item>B Rh-</item>
+        <item>0 Rh+</item>
+        <item>0 Rh-</item>
+        <item>Bilinmiyor</item>
+    </string-array>
+
+
+    <!-- Main -->
+
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="birthdayDate">Birthday Date:</string>
+    <string name="keep_going">Triage</string>
+    <string name="delete_profile">Delete Profile</string>
+
+
+    <!-- Sorular -->
+    <string name="question_1">Gender ?</string>
+    <string name="question_2">State your last menstrual period, menopause or pregnancy ?</string>
+    <string name="question_3">Please specify the date of your last menstrual period (DAY/ MONTH/YEAR)</string>
+    <string name="question_4">Do you have a chronic illness?</string>
+    <string name="question_5">Is there a medication you use regularly ?</string>
+    <string name="question_6">Select the medicines you use</string>
+    <string name="question_7">Do you smoke?</string>
+    <string name="question_8">Have many packages do you smoke per week? (Enter package quantity)</string>
+    <string name="question_9">Did you used to smoke ?</string>
+    <string name="question_10">Have many years it has been since you quit smoking?</string>
+    <string name="question_11">What is your disorder?</string>
+
+
+    <string-array name="options_1">
+        <item>Woman |2</item>
+        <item>Man |4</item>
+    </string-array>
+
+    <string-array name="options_2">
+        <item>Pregnant|4</item>
+        <item>Menopause|4</item>
+        <item>Menstruation|3</item>
+    </string-array>
+
+    <string-array name="options_3">
+        <item>Input|4</item>
+    </string-array>
+
+    <string-array name="options_4">
+        <item>Coklu Heart Disease|5</item>
+        <item>Coklu Hypertension|5</item>
+        <item>Coklu Asthma or Chronic Bronchitis|5</item>
+        <item>Coklu Diabetes|5</item>
+        <item>Coklu None|5</item>
+    </string-array>
+
+    <string-array name="options_5">
+        <item>Yes|6</item>
+        <item>No|7</item>
+    </string-array>
+
+    <string-array name="options_6">
+        <item>Coklu Parol |7</item>
+        <item>Coklu Nurofen |7</item>
+        <item>Coklu Ubicold |7</item>
+    </string-array>
+
+    <string-array name="options_7">
+        <item>Yes|8</item>
+        <item>No|9</item>
+    </string-array>
+
+    <string-array name="options_8">
+        <item>Input|11</item>
+    </string-array>
+
+    <string-array name="options_9">
+        <item>Yes|10</item>
+        <item>No|11</item>
+    </string-array>
+
+    <string-array name="options_10">
+        <item>Input|11</item>
+    </string-array>
+
+
+    <string-array name="options_11">
+        <item>Injury|31</item>
+        <item>Chest Pain or Heart Attack|12</item>
+        <item>Abdominal Pain|20</item>
+    </string-array>
+
+    <!-- GÖĞÜS KARIN AĞRISI VEYA KALP KRİZİ BAŞLANGIÇ-->
+    <string name="question_12">Enter the Form of Pain</string>
+    <string-array name="options_12">
+        <item>Constricting|13</item>
+        <item>Pressing Type|13</item>
+        <item>Pain Spreads to the Arm and Neck.|13</item>
+    </string-array>
+    <string name="question_13">Select the additional symptoms from the following.</string>
+    <string-array name="options_13">
+        <item>Coklu Nause and Sweating|14</item>
+        <item>Coklu Shortness of Breath|14</item>
+        <item>Coklu Loss of Consciousness or Confusion|14</item>
+    </string-array>
+    <string name="question_14">Specifiy the pain localization.</string>
+    <string-array name="options_14">
+        <item>Coklu Left Side of the Body|15</item>
+        <item>Coklu Right Side of the Body|15</item>
+        <item>Coklu Left Side of the Chin|15</item>
+        <item>Coklu Abdominal Cavity|15</item>
+        <item>Coklu Back|15</item>
+    </string-array>
+    <string name="question_15">Factors that aggravate or relieve pain.</string>
+    <string-array name="options_15">
+        <item>Coklu Meal|16</item>
+        <item>Coklu Exercise|16</item>
+        <item>Coklu Cold|16</item>
+        <item>Coklu Stress|16</item>
+    </string-array>
+    <string name="question_16">Specify how the discomfort started.</string>
+    <string-array name="options_16">
+        <item>After Exercise|17</item>
+        <item>After Stress|17</item>
+        <item>After Meal|17</item>
+    </string-array>
+    <string name="question_17">Specifiy the character of disorder.</string>
+    <string-array name="options_17">
+        <item>Blunt|18</item>
+        <item>Sharp|18</item>
+        <item>Burned|18</item>
+        <item>Crushing|18</item>
+        <item>Tightening|18</item>
+        <item>Distress Type|18</item>
+    </string-array>
+    <string name="question_18">Rate the severity of mid-chest (above the heart) pain on a scale of 1-10.</string>
+    <string-array name="options_18">
+        <item>Input |19</item>
+    </string-array>
+    <string name="question_19">Specify the period of the pain.</string>
+    <string-array name="options_19">
+        <item>Is the Pain Intermittent?|-1</item>
+        <item>Is the pain Continuous?|-1</item>
+    </string-array>
+    <!-- GÖĞÜS KARIN AĞRISI VEYA KALP KRİZİ BİTİŞ-->
+    <!--KARIN AĞRISI BAŞLANGIÇ-->
+    <string name="question_20">Specify the duration of the pain.</string>
+    <string-array name="options_20">
+        <item>More Than 48 Hours|21</item>
+        <item>Less Than 48 Hours|21</item>
+    </string-array>
+    <string name="question_21">Specify the localization of the pain ?</string>
+    <string-array name="options_21">
+        <item>Coklu Upper Abdomen|22</item>
+        <item>Coklu Lower Abdomen|22</item>
+        <item>Coklu Left İnguinal|22</item>
+        <item>Coklu Right İnguinal|22</item>
+    </string-array>
+    <string name="question_22">Specify the type of pain.</string>
+    <string-array name="options_22">
+        <item>Coklu Cramp|23</item>
+        <item>Coklu Periodic|23</item>
+        <item>Coklu Continuos|23</item>
+        <item>Coklu Wandering Pain|23</item>
+        <item>Coklu Stabbing Pain|23</item>
+        <item>Coklu Blunt|23</item>
+        <item>Coklu Burning|23</item>
+    </string-array>
+    <string name="question_23">Rate the intensity of pain on a scale of 1-10.</string>
+    <string-array name="options_23">
+        <item>Input |24</item>
+    </string-array>
+    <string name="question_24">Specify the accompanying symptoms.</string>
+    <string-array name="options_24">
+        <item>Coklu Nausea|25</item>
+        <item>Coklu Womiting|25</item>
+        <item>Coklu Change of Consciousness|25</item>
+        <item>Coklu Sweating|25</item>
+        <item>Coklu Feeling of İllness|25</item>
+        <item>Coklu Shortness of Breath|25</item>
+    </string-array>
+    <string name="question_25">Specify your fever state.</string>
+    <string-array name="options_25">
+        <item>Fever|26</item>
+        <item>No-fever|27</item>
+    </string-array>
+    <string name="question_26">Specify the temperature.</string>
+    <string-array name="options_26">
+        <item>36,5-38,5|27</item>
+        <item>38,5-40|27</item>
+        <item>>40|27</item>
+    </string-array>
+    <string name="question_27">Specify your diarrhea.</string>
+    <string-array name="options_27">
+        <item>Fever|28</item>
+        <item>No-fever|29</item>
+    </string-array>
+    <string name="question_28">Specify your feces.</string>
+    <string-array name="options_28">
+        <item>Green Colored|29</item>
+        <item>Bloody Diarrhea|29</item>
+        <item>Smelly|29</item>
+        <item>Black Colored|29</item>
+    </string-array>
+    <string name="question_29">Factors that worsen or relieve pain.</string>
+    <string-array name="options_29">
+        <item>Coklu Meal|30</item>
+        <item>Coklu Exercise|30</item>
+        <item>Coklu Alcohol|30</item>
+        <item>Coklu Hot/Cold|30</item>
+        <item>Coklu No Relationship|30</item>
+    </string-array>
+    <string name="question_30">Psychosocial activity</string>
+    <string-array name="options_30">
+        <item>Coklu Drug Use|-1</item>
+        <item>Coklu Stress|-1</item>
+        <item>Coklu Travel|-1</item>
+        <item>Coklu Diet|-1</item>
+    </string-array>
+
+    <!--YARALANMA BAŞLANGICI-->
+    <string name="question_31">"Specify location of the injury "</string>
+    <string-array name="options_31">
+        <item>Sekil|35</item>
+    </string-array>
+    <string name="question_32">Select the injured place on the head.</string>
+    <string-array name="options_32">
+        <item>Forehead|33</item>
+        <item>Crown|33</item>
+        <item>Temple|33</item>
+        <item>Back of the Head|33</item>
+        <item>Base of the Skull|33</item>
+    </string-array>
+    <string name="question_33">Specify the state of consiousness.</string>
+    <string-array name="options_33">
+        <item>Clear|34</item>
+        <item>Unconsicious|34</item>
+    </string-array>
+    <string name="question_34">Specify the accompanying symptoms.</string>
+    <string-array name="options_34">
+        <item>Nause|34</item>
+        <item>Vomiting|35</item>
+        <item>Headache|35</item>
+        <item>Seizure|35</item>
+    </string-array>
+    <string name="question_35">Specify the type of injury</string>
+    <string-array name="options_35">
+        <item>Crush Injury|36</item>
+        <item>Cut Injury|37</item>
+        <item>Penetrating Injury|-1</item>
+    </string-array>
+    <string name="question_36">State how you were injured.</string>
+    <string-array name="options_36">
+        <item>Crushed by an Object|-1</item>
+        <item>Compression|-1</item>
+        <item>Collision|-1</item>
+    </string-array>
+    <string name="question_37">Cut length</string>
+    <string-array name="options_37">
+        <item>Less than 2-3 cm|38</item>
+        <item>3-10 cm|38</item>
+        <item>More than 10 cm|38</item>
+    </string-array>
+    <string name="question_38">Is there bleeding?</string>
+    <string-array name="options_38">
+        <item>Yes|39</item>
+        <item>No|-1</item>
+    </string-array>
+    <string name="question_39">State the bleeding type.</string>
+    <string-array name="options_39">
+        <item>Spurting Blood|40</item>
+        <item>Leaky Bleeding|40</item>
+    </string-array>
+    <string name="question_40">Is bone or muscle visible?</string>
+    <string-array name="options_40">
+        <item>Yes|-1</item>
+        <item>No|-1</item>
+    </string-array>
+    <string name="guest_entrance">Quest Entrance</string>
+    <string name="set_hint">Enter here...</string>
+    <string name="save_pdf">Save as PDF</string>
+    <string name="toast_gender_alert">Gender cannot be left blank!</string>
+    <string name="toast_save_alert">Information Saved</string>
+    <string name="toast_start_alert">Fill in all the İnformation You Know</string>
+    <string name="toast_update_alert">Update Failed!</string>
+    <string name="toast_empty_alert">Please Fill in all Fields!</string>
+    <string name="profil_sil">Delete Profile</string>
+    <string name="profil_sil_mesaj">Are you sure you want to delete this profile ?</string>
+    <string name="toast_succes_delete_alert">Profile Deleted Successfully</string>
+    <string name="toast_unsucces_delete_alert">Profile could not be deleted!</string>
+
+
+    <!--BURADA KALDIN-->
+
+</resources>

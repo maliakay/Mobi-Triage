@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CreaateProfile -->
+
+    <string name="btn_main">Kaydet</string>
+    <string name="gender">Cinsiyet:</string>
+    <string name="create_profile">Profil Oluştur</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="hint_name">Adınızı girin</string>
+    <string name="hint_surname">Soyadınızı girin</string>
+    <string name="hint_weight">Kilonuzu girin(kg)</string>
+    <string name="hint_height">Boyunuzu girin(cm)</string>
+    <string name="hint_birthday">Doğum gününüzü giriniz</string>
+    <string name="edit_profile">Profil Düzenle</string>
+    <string name="spinnerBloodGroup">Kan Grubu</string>
+    <string name="delete_profile">Profili Sil</string>
+    <string name="select_language">Dil Seçimi</string>
+    <string name="guest_entrance">Misafir Girişi</string>
+
+
+    <string-array name="blood_group_array">
+        <item>AB Rh+</item>
+        <item>AB Rh-</item>
+        <item>A Rh+</item>
+        <item>A Rh-</item>
+        <item>B Rh+</item>
+        <item>B Rh-</item>
+        <item>0 Rh+</item>
+        <item>0 Rh-</item>
+        <item>Bilinmiyor</item>
+    </string-array>
+
+    <!-- Main -->
+
+    <string name="height">Boy:</string>
+    <string name="weight">Kilo:</string>
+    <string name="birthdayDate">Doğum Tarihi:</string>
+    <string name="keep_going">Triyaj</string>
+
+    <!-- Sorular -->
+    <string name="question_1">Cinsiyet ?</string>
+    <string name="question_2">Son adet tarihinizi, menopoz durumunuzu veya gebelik durumunuzu belirtir misiniz?</string>
+    <string name="question_3">Son adet tarihinizi belirtir misiniz?(GUN/AY/YIL)</string>
+    <string name="question_4">Kronik bir rahatsızlık var mıdır?</string>
+    <string name="question_5">Düzenli kullandığınız bir ilaç var mı</string>
+    <string name="question_6">Kullandığınız ilaçları seçiniz?</string>
+    <string name="question_7">Sigara kullanıyor musunuz?</string>
+    <string name="question_8">Haftada kaç paket içiyorsunuz?(Paket Adedi olarak giriniz)</string>
+    <string name="question_9">Eskiden içiyor muydunuz</string>
+    <string name="question_10">Bırakalı ne kadar oldu?(Günümüze kadar kaç yıl geçtiğini giriniz)</string>
+    <string name="question_11">Rahatsızlığınız nedir?</string>
+
+
+    <string-array name="options_1">
+        <item>Kadın |2</item>
+        <item>Erkek |4</item>
+    </string-array>
+
+    <string-array name="options_2">
+        <item>Gebe|4</item>
+        <item>Menopoz|4</item>
+        <item>Menstrüasyon|3</item>
+    </string-array>
+
+    <string-array name="options_3">
+        <item>Input |4</item>
+    </string-array>
+
+    <string-array name="options_4">
+        <item>Coklu Kalp rahatsızlığı|5</item>
+        <item>Coklu Hipertansiyon|5</item>
+        <item>Coklu Astım veya kronik bronşit|5</item>
+        <item>Coklu Diyabet|5</item>
+        <item>Coklu Hiçbiri|5</item>
+    </string-array>
+
+    <string-array name="options_5">
+        <item>Evet|6</item>
+        <item>Hayır|7</item>
+    </string-array>
+
+    <string-array name="options_6">
+        <item>Coklu Parol |7</item>
+        <item>Coklu Nurofen |7</item>
+        <item>Coklu Ubicold |7</item>
+    </string-array>
+
+    <string-array name="options_7">
+        <item>Evet|8</item>
+        <item>Hayır|9</item>
+    </string-array>
+
+    <string-array name="options_8">
+        <item>Input |11</item>
+    </string-array>
+
+    <string-array name="options_9">
+        <item>Evet|10</item>
+        <item>Hayır|11</item>
+    </string-array>
+
+    <string-array name="options_10">
+        <item>Input |11</item>
+    </string-array>
+
+<!--ANA DALLANMA BAŞLANGIÇ -->
+    <string-array name="options_11">
+        <item>Yaralanma|31</item>
+        <item>Göğüs ağrısı yada kalp krizi|12</item>
+        <item>Karın ağrısı|20</item>
+    </string-array>
+
+    <!-- GÖĞÜS KARIN AĞRISI VEYA KALP KRİZİ BAŞLANGIÇ-->
+    <string name="question_12">Ağrı şeklini giriniz?</string>
+    <string-array name="options_12">
+        <item>Sıkıştırıcı Tarzda|13</item>
+        <item>Basıcı Tarzda|13</item>
+        <item>Kola ve Boyuna YayılıyoR.|13</item>
+    </string-array>
+    <string name="question_13">Aşağıdakilerden Ek Semptomları Giriniz.</string>
+    <string-array name="options_13">
+        <item>Coklu Bulantı ve Terleme|14</item>
+        <item>Coklu Nefes Darlığı|14</item>
+        <item>Coklu Bilinç kaybı ya da Şuur Bulanıklığı|14</item>
+    </string-array>
+    <string name="question_14">Ağrı Lokalizasyonunu Belirtiniz.</string>
+    <string-array name="options_14">
+        <item>Coklu Vucüdun Sol Tarafı|15</item>
+        <item>Coklu Vucüdun Sağ Tarafı|15</item>
+        <item>Coklu Çenenin Sol Tarafı|15</item>
+        <item>Coklu Karın Boşluğu|15</item>
+        <item>Coklu Sırt|15</item>
+    </string-array>
+    <string name="question_15">Ağrıyı Kötüleştiren veya Rahatlatan Faktörler.</string>
+    <string-array name="options_15">
+        <item>Coklu Yemek|16</item>
+        <item>Coklu Egzersiz|16</item>
+        <item>Coklu Soğuk|16</item>
+        <item>Coklu Stres|16</item>
+    </string-array>
+    <string name="question_16">Rahatsızlık Nasıl Başladığını Belirtiniz.</string>
+    <string-array name="options_16">
+        <item>Egzersiz Sonrası|17</item>
+        <item>Stres Sonrası|17</item>
+        <item>Yemek Sonrası|17</item>
+    </string-array>
+    <string name="question_17">Rahatsızlık Karakterini Belirtiniz.</string>
+    <string-array name="options_17">
+        <item>Künt|18</item>
+        <item>Keskin|18</item>
+        <item>Yanma|18</item>
+        <item>Ezici|18</item>
+        <item>Sıkma Tarzında|18</item>
+        <item>Sıkıntı Tarzında|18</item>
+    </string-array>
+    <string name="question_18">Göğüs Ortası(Kalp Üstü) Ağrı Şiddetini 1-10 arasında derecelendiriniz.</string>
+    <string-array name="options_18">
+        <item>Input |19</item>
+    </string-array>
+    <string name="question_19">Ağrının Sürecini Belirtiniz.</string>
+    <string-array name="options_19">
+        <item>Ara Veriyor mu?|-1</item>
+        <item>Sürekli mi?|-1</item>
+    </string-array>
+    <!-- GÖĞÜS KARIN AĞRISI VEYA KALP KRİZİ BİTİŞ-->
+
+    <!--KARIN AĞRISI BAŞLANGIÇ-->
+    <string name="question_20">Ağrı Süresi Belirtiniz.</string>
+    <string-array name="options_20">
+        <item>48 Saatten Çok|21</item>
+        <item>48 Saatten Az|21</item>
+    </string-array>
+    <string name="question_21">Ağrı Lokalizasyonunuzu Belirtiniz.</string>
+    <string-array name="options_21">
+        <item>Coklu Üst Karın|22</item>
+        <item>Coklu Alt Karın Bölgesi|22</item>
+        <item>Coklu Sol Kasık|22</item>
+        <item>Coklu Sağ Kasık|22</item>
+    </string-array>
+    <string name="question_22">Ağrı Şeklini Belirtiniz.</string>
+    <string-array name="options_22">
+        <item>Coklu Kramp|23</item>
+        <item>Coklu Aralıklı|23</item>
+        <item>Coklu Devamlı|23</item>
+        <item>Coklu Gezici|23</item>
+        <item>Coklu Batıcı|23</item>
+        <item>Coklu Künt|23</item>
+        <item>Coklu Yanma Şeklinde|23</item>
+    </string-array>
+    <string name="question_23">Ağrı Şiddetini 1-10 arasında derecelendiriniz.</string>
+    <string-array name="options_23">
+        <item>Input |24</item>
+    </string-array>
+    <string name="question_24">Eşlik Eden Bulguları Belirtiniz.</string>
+    <string-array name="options_24">
+        <item>Coklu Bulantı|25</item>
+        <item>Coklu Kusma|25</item>
+        <item>Coklu Bilinç Değişikliği|25</item>
+        <item>Coklu Terleme|25</item>
+        <item>Coklu Fenalık Hissi|25</item>
+        <item>Coklu Nefes Darlığı|25</item>
+    </string-array>
+    <string name="question_25">Ateş Durumunuzu Belirtiniz.</string>
+    <string-array name="options_25">
+        <item>Var|26</item>
+        <item>Yok|27</item>
+    </string-array>
+    <string name="question_26">Ateş Derecenizi Belirtiniz.</string>
+    <string-array name="options_26">
+        <item>36,5-38,5|27</item>
+        <item>38,5-40|27</item>
+        <item>>40|27</item>
+    </string-array>
+    <string name="question_27">İshal Durumunuzu Belirtiniz.</string>
+    <string-array name="options_27">
+        <item>Var|28</item>
+        <item>Yok|29</item>
+    </string-array>
+    <string name="question_28">Dışkı Durumunuzu Belirtiniz.</string>
+    <string-array name="options_28">
+        <item>Yeşil Renkli|29</item>
+        <item>Kanlı İshal|29</item>
+        <item>Kötü Kokulu|29</item>
+        <item>Siyah Renkli|29</item>
+    </string-array>
+    <string name="question_29">Ağrıyı Kötüleştiren veya Rahatlatan Faktörler.</string>
+    <string-array name="options_29">
+        <item>Coklu Yemek|30</item>
+        <item>Coklu Egzersiz/Haraket|30</item>
+        <item>Coklu Alkol|30</item>
+        <item>Coklu Sıcak/Soğuk|30</item>
+        <item>Coklu İlişkisi Yok|30</item>
+    </string-array>
+    <string name="question_30">Psikososyal Aktiviteler.</string>
+    <string-array name="options_30">
+        <item>Coklu Madde Kullanımı|-1</item>
+        <item>Coklu Stres|-1</item>
+        <item>Coklu Yolculuk|-1</item>
+        <item>Coklu Diyet|-1</item>
+    </string-array>
+    <!--YARALANMA BAŞLANGICI-->
+    <string name="question_31">Yaralanma Yerini Belirtiniz.</string>
+    <string-array name="options_31">
+        <item>Sekil|35</item>
+
+    </string-array>
+    <string name="question_32">Kafada Yaralanan Yeri Seçiniz</string>
+    <string-array name="options_32">
+        <item>Alın|33</item>
+        <item>Tepe|33</item>
+        <item>Şakak|33</item>
+        <item>Arka Kafa|33</item>
+        <item>Kafa Tabanı|33</item>
+    </string-array>
+    <string name="question_33">Bilinç Durumunu Belirtiniz.</string>
+    <string-array name="options_33">
+        <item>Açık|34</item>
+        <item>Kapalı|34</item>
+    </string-array>
+    <string name="question_34">Eşlik Eden Bulguları Belirtiniz.</string>
+    <string-array name="options_34">
+        <item>Coklu Bulantı|35</item>
+        <item>Coklu Fışkırır Tarzda Kusma|35</item>
+        <item>Coklu Baş Ağrısı|35</item>
+        <item>Coklu Havale veya Nöbet|35</item>
+    </string-array>
+    <string name="question_35">Yaralanma Çeşidini Belirtiniz.</string>
+    <string-array name="options_35">
+        <item>Ezikli Yaralanma|36</item>
+        <item>Kesikli Yaralanma|37</item>
+        <item>Delici Yaralanma|-1</item>
+    </string-array>
+    <string name="question_36">Nasıl Yaralandığınızı Belirtiniz.</string>
+    <string-array name="options_36">
+        <item>Bir Cismin Ezmesi|-1</item>
+        <item>Sıkıştırılma Sonucu|-1</item>
+        <item>Çarpışma Sonucu|-1</item>
+    </string-array>
+    <string name="question_37">Kesik Uzunluğu Nedir.</string>
+    <string-array name="options_37">
+        <item>2-3 cm den Küçük|38</item>
+        <item>3-10 cm|38</item>
+        <item>10 cm den Büyük|38</item>
+    </string-array>
+    <string name="question_38">Kanama var mı ?.</string>
+    <string-array name="options_38">
+        <item>Evet|39</item>
+        <item>Hayır|40</item>
+    </string-array>
+    <string name="question_39">Kanama Türünü Belirtiniz.</string>
+    <string-array name="options_39">
+        <item>Fışkırır Tarzda|40</item>
+        <item>Yoğun ve Sızıntı Şeklinde|40</item>
+    </string-array>
+    <string name="question_40">Kemik veya Kas Görünüyor mu ?</string>
+    <string-array name="options_40">
+        <item>Evet|-1</item>
+        <item>Hayır|-1</item>
+    </string-array>
+    <string name="set_hint">Giriniz...</string>
+    <string name="save_pdf">PDF olarak Kaydet</string>
+    <string name="toast_gender_alert">Cinsiyet Boş Bırakılamaz!</string>
+    <string name="toast_save_alert">Bilgiler Başarıyla Kaydedildi</string>
+    <string name="toast_start_alert">Bildiğiniz Bütün Bilgileri Doldurunuz.</string>
+    <string name="toast_update_alert">Güncelleme İşlemi Başarısız!</string>
+    <string name="toast_empty_alert">Lütfen Tüm Alanları Doldurunuz!</string>
+    <string name="profil_sil">Profili Sil</string>
+    <string name="profil_sil_mesaj">Profili Silmek İstediğinize Emin Misiniz ?</string>
+    <string name="toast_succes_delete_alert">Profil Başarıyla Silindi</string>
+    <string name="toast_unsucces_delete_alert">Profil Başarıyla Silinemedi!</string>
+
+
+    <!--BURADA KALDIN-->
+
+
+</resources>

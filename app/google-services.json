@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1000658507182",
+    "project_id": "mobiltriyaj",
+    "storage_bucket": "mobiltriyaj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000658507182:android:5c843a0e3b97e850f9243f",
+        "android_client_info": {
+          "package_name": "com.example.mobiltriyaj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqOMp2dzOdCVHPbU-GsbdEKQRS3CNlDPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
